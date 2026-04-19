@@ -1,0 +1,21 @@
+.conteiner {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px auto;
+  max-width: 500px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.name {
+  color: #3a86ff;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.contect {
+  color: #555;
+  font-size: 16px;
+  font-weight: normal;
+}

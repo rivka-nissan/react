@@ -1,9 +1,10 @@
-function Post() {
-const name = "rivka nissan"
-const contect = "this is my first lesson in react"
-return <div>
-    <h1>hello {name}</h1>
-<h2>{contect}</h2>
+import styles from './Post.module.css'
+function Post({ name, content }) {
+return <div className={styles.conteiner}>
+    <h1 className={styles.name}>hello {name}</h1>
+    <h2 className={styles.contect}>{content}</h2>
 </div>
+
 }
 export default Post
+

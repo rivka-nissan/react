@@ -8,9 +8,9 @@ import Post from './components/Post'
 function App() {
   return(
 <>
-<Post></Post>
-<Post></Post>
-<Post></Post>
+<Post name="rivka" content="this is my first post" />
+<Post name="sarah" content="this is my second post" />
+<Post name="david" content="this is my third post" />
 </>
   );
   
