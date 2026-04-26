@@ -23,5 +23,23 @@
   color: #555;
   font-size: 16px;
   font-weight: normal;
+}
 
+.conteiner button {
+  display: block;
+  margin: 8px auto;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  color: white;
+}
+
+.conteiner button:first-of-type {
+  background-color: #2ecc71;
+}
+
+.conteiner button:last-of-type {
+  background-color: #e74c3c;
 }
