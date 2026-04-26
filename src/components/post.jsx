@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import styles from './Post.module.css'
 
-function Post({ name, content, onClick }) {
+function Post({ name, content, onClick, onSave }) {
   const [postcontect, setpostcontect] = useState(content)
   const [inputValue, setInputValue] = useState('')
   const [isEditing, setIsEditing] = useState(false)
 
   const handleSave = () => {
     setpostcontect(inputValue)
+    onSave(inputValue)
     setInputValue('')
     setIsEditing(false)
   }
